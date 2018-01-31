@@ -1,0 +1,81 @@
+h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1.title_page {
+    font-size: 48px;
+}
+
+.red_text {
+  color: red;
+}
+
+.large_text {
+  font-size: 36px;
+}
+
+ul.navbar {
+  overflow: hidden;
+  background-color: #0047b3;
+  list-style-type: none;
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+  padding-right: 40px;
+  display: block;
+}
+
+ul.navbar li a:hover {
+  color: #0047b3;
+  background-color: #ffffff;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  height: 100%
+}
+
+.left-side {
+  float: left;
+  height: 100%;
+}
+
+.right-side {
+  float: left;
+  margin-left: 20px;
+  width: 70%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.something {
+
+}
