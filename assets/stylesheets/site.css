@@ -62,6 +62,10 @@ ul.navbar li a:hover {
   height: 100%;
 }
 
+.active {
+  background-color: #FFFF00;
+}
+
 
 
 

@@ -8,9 +8,9 @@
   </head>
   <body>
 
-    <ul class="navbar">
-      <li><a href=".">Home</a></li>
-      <li><a href="http://flickr.com">Flickr</a></li>
+    <ul class="navbar" id="navbar">
+      <li><a href="." class="active" id="home_link">Home</a></li>
+      <li><a href="http://flickr.com" id="flickr_link">Flickr</a></li>
       <li><a href="http://objo.com">objo</a></li>
       <li><a href="http://cnn.com">cnn</a></li>
     </ul>
@@ -21,7 +21,7 @@
 
     <div class="container">
       <div class="left-side">
-        <h3><span class="red_text large_text">Before</span> I croak</h3>
+        <h3><span class="red_text large_text" id="before_text">Before</span> I croak</h3>
 
         <ol>
           <li><a href="pages/scotland.html" class="large_text">Scotland</a></li>
@@ -33,7 +33,7 @@
       </div>
 
       <div class="right-side">
-        <h1>Scotland</h1>
+        <h1 id="country">Scotland</h1>
 
         <img src="assets/images/scotland.jpg" alt="My beautiful scotland pic" height="200px">
 
@@ -43,5 +43,11 @@
       </div>
       <div class="clearfix"></div>
     </div>
+    <script src="assets/javascripts/hello-world.js"></script>
+    <script src="assets/javascripts/height-calculator.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   </body>
 </html>
